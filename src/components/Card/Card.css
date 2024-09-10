@@ -1,0 +1,11 @@
+.card .card-Para {
+    color: var(--para-color) !important;
+}
+
+.icon-shadow {
+    width: 56px;
+    height: 56px;
+    padding: 16px;
+    margin-top: 8px;
+    margin-right: 16px;
+}

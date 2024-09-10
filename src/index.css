@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif !important;
+}
+
+:root {
+    --body-color: #ffffff;
+    --primary-color: #3fbbc0;
+    --secondary-color: #444444;
+    --heading-color: #555555;
+    --para-color: #555555;
+}
+
+body {
+    background: var(--body-color);
+    overflow-x: hidden;
+}
+
+.bg-primary {
+    background: var(--primary-color) !important;
+}
+
+.primary-color {
+    color: var(--primary-color) !important;
+}
+
+.bg-linerWhite {
+    background: color-mix(in srgb, var(--body-color), transparent 10%);
+}
+
+.white-text {
+    color: var(--body-color) !important;
+}
+
+.black-text {
+    color: var(--heading-color) !important;
+}
+
+.fs-7 {
+    font-size: 14px;
+}

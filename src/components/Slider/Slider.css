@@ -1,0 +1,29 @@
+.slide img {
+    max-height: 75vh !important;
+}
+
+.carousel-indicators button {
+    width: 14px !important;
+    height: 14px !important;
+    opacity: 1 !important;
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+}
+
+.carousel-indicators button.active {
+    background-color: var(--primary-color) !important;
+}
+
+.slide .carousel-caption {
+    border-color: var(--primary-color) !important;
+}
+
+@media screen and (min-width: 768px) {
+    .hero .slide img {
+        max-height: 75vh !important;
+        width: 100% !important;
+    }
+}

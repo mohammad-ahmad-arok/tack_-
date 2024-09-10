@@ -1,0 +1,18 @@
+
+.card .card-header.Advanced::before {
+    content: 'Advanced' !important;
+    display: block !important;
+    width: 200px !important;
+    padding-block: 4px;
+    color: var(--body-color);
+    position: absolute;
+    top: 20px;
+    right: -66px;
+    font-size: 14px;
+    transform: rotate(45deg);
+    background: var(--primary-color) !important;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}

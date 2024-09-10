@@ -1,0 +1,6 @@
+.section-header #spaser{
+    content: "";
+    width: 3rem;
+    height: 4px;
+    background: var(--primary-color) ;
+}

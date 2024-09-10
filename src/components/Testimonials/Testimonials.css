@@ -1,0 +1,16 @@
+.Testimonials .text-box {
+    background: #f9f9f9;
+}
+
+.Testimonials .carousel-caption {
+    margin-top: -3rem;
+}
+
+.Testimonials .carousel-caption img {
+    border-color: var(--body-color) !important;
+}
+
+.Testimonials .carousel-indicators button,
+.Gallery .carousel-indicators button {
+    border: 1px solid var(--primary-color);
+}

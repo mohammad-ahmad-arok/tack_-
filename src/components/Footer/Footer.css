@@ -1,0 +1,13 @@
+footer ul.list-group {
+    list-style: none;
+}
+
+footer .row {
+    border-color: #ccc !important;
+}
+
+footer .icon-box {
+    width: 40px;
+    height: 40px;
+    border:1px solid var(--heading-color) !important;
+}
